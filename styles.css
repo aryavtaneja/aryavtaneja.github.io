@@ -1,5 +1,6 @@
 h1 {
     font-family:'Courier New', Courier, monospace;
+    color: gray;
     font-size: 40px;
     text-align: center;
 }
@@ -7,50 +8,48 @@ h1 {
 h2 {
     font-family:'Courier New', Courier, monospace;
     font-size: 25px;
+    color: gray;
     text-align: center;
 }
 
 p {
     font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 25px;
+    color: gray;
 }
 
-.container {
-    position: relative;
-    width: 800px;
-    margin: 0 auto;
+body {
+    background-color: black;
 }
 
-.image {
+#aboutsection {
+    padding-top: 60px;
+}
+
+#logo {
+    width: auto;
+    height: 75px;
+}
+
+#abouttitle {
+    padding: 30px;
+}
+
+#aboutpic {
     height: auto;
-    width: 800px;
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    width: 600px;
+    padding-left: 380px;
+    padding-right: 75px;
+    padding-top: 25px;
+    float: left;
 }
 
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+#selfpic {
+    height: auto;
+    width: 600px;
 }
 
-.container:hover .image {
-    opacity: 0.3;
-}
-
-.container:hover .middle {
-    opacity: 1;
-}
-
-.text {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: bold;
+#aboutparagraph {
+    padding-right: 380px;
+    padding-left: 25px;
 }
