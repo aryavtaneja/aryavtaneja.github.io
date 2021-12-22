@@ -87,3 +87,35 @@ body {
     height: 100%;
     float: right;
 }
+
+#aboutsection {
+    padding-top: 60px;
+}
+
+#logo {
+    width: auto;
+    height: 75px;
+}
+
+#abouttitle {
+    padding: 30px;
+}
+
+#aboutpic {
+    height: auto;
+    width: 600px;
+    padding-left: 380px;
+    padding-right: 75px;
+    padding-top: 25px;
+    float: left;
+}
+
+#selfpic {
+    height: auto;
+    width: 600px;
+}
+
+#aboutparagraph {
+    padding-right: 380px;
+    padding-left: 25px;
+}
