@@ -4,40 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Aryav Taneja</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="title">
-        <h1>I'm Aryav Taneja. This is my site.</h1>
+    <div id="header">
+        <img id="logo" src="/images/logogray.png">
     </div>
-    <br><br>
-    <div class="container">
-        <h2>Dislike Count Revived</h2>
-        <p>A Chrome extension to display the dislikes on YouTube videos, for transparency purposes.</p>
-        <img class="image" src="/images/dcr.png">
-        <div class="middle">
-            <div class="text">Learn more</div>
+
+    <div id="aboutsection">
+        <div id="aboutpic">
+            <img id="selfpic" src="/images/me.png">   
         </div>
-        <br><br><br><br><br>
+        <div id="aboutparagraph">
+            <p>I'm a 15 year old in Seattle. I've always loved computer technology since I was a 5th grader playing Scratch, and it's stuck with me for several years. I'm also interested in spaceflight, aviation, motorsports (specifically Formula 1), and geopolitics. You can find me on <a href="https://twitter.com/aryavdude">Twitter</a> and <a href="https://medium.com/@aryavtaneja">Medium.</a> Below are some of my recent projects.</p>
+        </div>
     </div>
-    <div class="container">
-        <h2>Generative NFT Art for Gift of Ganesha</h2>
-        <p>Code to create the Gift of Ganesha OpenSea NFT collection.</p>
-        <img class="image" src="/images/nft.png">
-        <div class="middle">
-            <div class="text">Learn more</div>
-        </div>
-        <br><br><br><br><br>
-    </div>
-    <div class="container">
-        <h2>Microsoft Imagine Cup Junior 2021</h2>
-        <p>An AI-powered app to translate the ASL alphabet into English.</p>
-        <img class="image" src="/images/icj.png">
-        <div class="middle">
-            <div class="text">Learn more</div>
-        </div>
-        <br><br><br><br><br>
+
+    <div id="projects">
+
+        <span id="nslc" class="project">
+            <div class="imagecontainer">
+                <img class="image" src="images/nslc.png">
+            </div>
+            <div class="text">
+                <h1 class="title">Cybersecurity Program by NSLC</h1>
+                <p class="desc">Completed an intensive cybersecurity program at the National Student Leadership Conference in Washington, DC during the summer of 2021.<br><br><u>Tech learned:</u> ethical hacking of networks, attacking IoT devices, cryptography, social engineering, and other fundamentals of cybersecurity - both offensive and defensive.</p>
+            </div>
+        </span>
+
+        <span id="icj" class="project">
+            <div class="imagecontainer">
+                <img class="image" src="images/icj.png">
+            </div>
+            <div class="text">
+                <h1 class="title">AI for Good: Translating ASL</h1>
+                <p class="desc">Built an AI-powered American Sign Language alphabet recognizer with the goal to use this technology to help hearing-impaired users communicate seamlessly with others.<br><br><u>Tech used:</u> Programming AI with TensorFlow, Azure Machine Learning, OpenCV, and Microsoft Speech-to-Text API.<br><br><a href="https://youtu.be/T0KEVBwcvFE">Watch the demo here</a></p>
+            </div>
+        </span>
+
+        <span id="nft" class="project">
+            <div class="imagecontainer">
+                <img class="image" src="images/nft.png">
+            </div>
+            <div class="text">
+                <h1 class="title">Generative NFT Art Collection</h1>
+                <p class="desc">Wrote the code to generate the Gift of Ganesha NFT collection that was published on OpenSea in mid-2021.<br><br><u>Tech used:</u> Python, PIL Imaging Library.<br><br><a href="https://github.com/aryavtaneja/NFT-Generative-Code">Find the code here</a><br><br><a href="https://opensea.io/collection/gift-of-ganesha">Find the collection here</a></p>
+            </div>
+        </span>
+
+        <span id="crx" class="project">
+            <div class="imagecontainer">
+                <img class="image" src="images/crx.png">
+            </div>
+            <div class="text">
+                <h1 class="title" style="padding-left: 40px;">YouTube Chrome Extension</h1>
+                <p class="desc" style="padding-left: 40px;">Published a Chrome extension to bring back the dislike count on YouTube videos, a feature they axed in November 2021.<br><br><u>Tech used:</u> JavaScript, YouTube API calls, and Google Chrome extension programming.<br><br><a href="https://github.com/aryavtaneja/YT-Dislike-Count-Revived">Code on GitHub</a></p>
+            </div>
+        </span>
+
+        <span id="fr24" class="project">
+            <div class="imagecontainer">
+                <img class="image" src="images/fr24.png">
+            </div>
+            <div class="text">
+                <h1 class="title" style="padding-left: 10px;">Real-time Aircraft Tracking</h1>
+                <p class="desc" style="padding-left: 10px;">Built and deployed a receiver to provide aircraft tracking data to Flightradar24 and FlightAware in early 2020.<br><br><u>Tech used:</u> 1090Mhz receiver, Raspberry Pi 3, ADS-B reception programs.<br><br><a href="https://medium.com/@aryavtaneja/tracking-aircraft-with-piaware-ab6d606a6b92">Read about the process here</a>
+            </div>
+        </span>
+
     </div>
 </body>
 </html>
